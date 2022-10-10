@@ -1,0 +1,315 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #d4d4d4; */
+    color: #151515;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    text-align: center;
+    padding: 1em;
+    background-color: #151515;
+}
+
+#menu-button {
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    background-color: #00000000;
+    color: white;
+    border: none;
+}
+
+#dropdown-menu {
+    position: absolute;
+    display: none;
+    height: 40px;
+    width: 100%;
+    /* align-content: center; */
+    margin-top: 17px;
+    background-color: #00000086;
+    transform: translateX(-47.1%);
+}
+
+menu {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#menu-button:hover #dropdown-menu {
+    display: block;
+}
+
+#top-menu {
+    display: none;
+}
+
+#cover img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+section,
+footer {
+    text-align: justify;
+}
+
+#profile-pic {
+    display: none;
+}
+
+section img {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+section p {
+    margin: auto;
+    padding: 10px 5%;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+#contato button {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    background-color: #FF6919;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#contato button:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+#contato p {
+    text-align: center;
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    border: #151515 solid 2px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #151515;
+    color: white;
+    font-size: 12px;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+@media screen and (min-width: 412px) {
+
+    #cover img,
+    section img {
+        width: 70%;
+    }
+
+    section p,
+    hr,
+    iframe,
+    .schedule {
+        width: 80%;
+    }
+
+    #contato button {
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #dropdown-menu {
+        transform: translateX(-48.45%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        height: 50px;
+        padding: 1em 5%;
+    }
+
+    #header-logo {
+        float: left;
+
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #top-menu {
+        display: block;
+    }
+
+    menu {
+        display: flex;
+        float: right;
+    }
+
+    menu li {
+        margin-left: 20px;
+    }
+
+    #sobre {
+        background-color: #15151545;
+    }
+
+    #cover img {
+        width: 50%;
+    }
+
+    #sobre {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px 10%;
+    }
+
+    #sobre hr {
+        border-color: #aaaaaa;
+    }
+
+    #profile-pic {
+        display: block;
+    }
+
+    #profile-pic-right {
+        display: none;
+    }
+
+    #horarios img,
+    #horarios hr {
+        width: 70%;
+    }
+
+    #horarios p {
+        width: 70%;
+    }
+
+    #contato {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px 10%;
+    }
+
+    #contato-right p {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    menu li {
+        margin-left: 50px;
+    }
+
+    #cover img {
+        width: 30%;
+    }
+
+    #sobre {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #profile-pic {
+        width: 60%;
+    }
+
+    #sobre {
+        grid-template-columns: 50% 50%;
+    }
+
+    #sobre article {
+        padding-right: 15%;
+    }
+
+    #sobre,
+    #horarios,
+    #contato {
+        margin-top: 80px;
+    }
+
+    #horarios img,
+    #horarios hr,
+    #horarios p {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #profile-pic {
+        width: 45%;
+    }
+
+    article {
+        display: block;
+        align-self: center;
+    }
+
+    #horarios img,
+    #horarios hr,
+    #horarios p {
+        width: 50%;
+    }
+
+    #contato-left hr {
+        width: 50%;
+    }
+
+    footer img {
+        width: 2.5%;
+    }
+}

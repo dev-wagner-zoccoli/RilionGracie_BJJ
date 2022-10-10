@@ -1,0 +1,49 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 33%;
+}
+
+button {
+    display: block;
+    height: 50px;
+    width: 80%;
+    margin: 30px auto;
+    background-color: #FF6919;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+iframe {
+    display: block;
+    height: 350px;
+    width: 80%;
+    margin: 50px auto;
+    border: #868686 solid 2px;
+    border-radius: 5px;
+}
