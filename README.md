@@ -1,5 +1,5 @@
 # Rilion Gracie Rolândia BJJ
-Este projeto foi desenvolvido para a Academia/Equipe da qual faço parte na cidade de Rolândia/PR - Brasil - Rilion Gracie.
+Este projeto foi desenvolvido para a Academia/Equipe da qual faço parte na cidade de Rolândia/PR - Brasil - Rilion Gracie Jiu Jitsu.
 
 O website pode ser conferido na hospedagem do github através deste [link](https://dev-wagner-zoccoli.github.io/RilionGracie_BJJ/).
 
