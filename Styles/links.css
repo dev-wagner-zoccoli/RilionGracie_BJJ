@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    font-size: 18px;
     font-weight: bold;
     color: white;
 }
@@ -19,7 +20,7 @@ a {
 img {
     display: block;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 15px;
     width: 33%;
 }
 
@@ -43,7 +44,7 @@ iframe {
     display: block;
     height: 350px;
     width: 80%;
-    margin: 50px auto;
+    margin: 10px auto;
     border: #868686 solid 2px;
     border-radius: 5px;
 }
